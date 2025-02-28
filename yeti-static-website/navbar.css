@@ -46,7 +46,7 @@ nav .menu {
 
 nav .menu li{    
     margin-top: 0;
-    /* width: 100px; */
+    width: 150px;
     padding: 0 30px;
 }
 
@@ -58,7 +58,8 @@ nav .menu li a{
     display: flex;
     align-items: center;
     justify-content: center; 
-    color: #436e89;   
+    color: #436e89;  
+    font-family: "Oswald", sans-serif; 
 }
 
 nav .menu li a:hover{ 
