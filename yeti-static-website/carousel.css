@@ -1,0 +1,147 @@
+/* .carousel-section{
+    padding-left: 40px;
+} */
+
+.carousel-heading{
+    padding-left: 40px;
+    margin-bottom: 30px;
+    font-size: 2.875rem;
+    line-height: 1;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    color: #002b45;
+    font-family: "Anton", sans-serif;
+}
+
+
+.carousel-wrapper {
+    padding-bottom: 60px;
+    /* padding-left: 40px; */
+    transform: translateX(40px);
+}
+
+.slick-dotted.slick-slider{
+    margin-bottom: 30px;
+}
+
+.carousel-item{
+    background-color: red;
+    width: 100%;
+    margin-right: 24px;
+    width: 100%;
+    display: block;
+    /* transform: translateX(40px); */
+
+    transition: transform .5s ease;
+    transform: scale(1);
+    cursor: pointer;
+    border-radius: 13px;
+
+    position: relative;
+}
+
+.carousel-item:hover{
+    transform: scale(.95);
+}
+
+
+
+
+.carousel-image{
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-image img{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+    transform: scale(.85);
+}
+
+.carousel-image:hover img{
+    transform: scale(.95);
+}
+
+.slick-next, .slick-prev {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    font-weight: 400;
+    background-size: 10px;
+    color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.carousel-wrapper .slick-prev {
+    left: -18px;
+    background: url('https://www.yeti.com/on/demandware.static/Sites-Yeti_US-Site/-/en_US/v1740913419852/svg-icons/arrow.svg') no-repeat 50%;
+    padding: 0;
+    
+    
+}
+
+.carousel-wrapper .slick-next {
+    left: 85px;
+    background: url('https://www.yeti.com/on/demandware.static/Sites-Yeti_US-Site/-/en_US/v1740913419852/svg-icons/arrow.svg') no-repeat 50%;
+    padding: 0;
+    transform: rotate(180deg);
+    
+}
+
+
+.carousel-container{
+    position: relative;
+}
+
+.counter {
+    position: absolute;
+    bottom: 3px;
+    width: 3.4375rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .08px;
+
+    left: 65px;
+}
+
+.bg-limegreen{
+    background-color: rgb(224, 216, 68);
+}
+
+.carousel-item .carousel-text{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    text-align: left;
+}
+
+.carousel-item .carousel-text .badge{
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+.carousel-item .carousel-text .title{
+    font-size: 18px;
+}
+
+.carousel-item .carousel-text .badge,.carousel-item .carousel-text .title {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+
+

@@ -1,0 +1,182 @@
+.two-column-homepage-section{
+    padding: 0 1.5rem;
+
+}
+
+.two-column-homepage-container{
+    display: flex;
+    gap: 20px;
+}
+
+.two-column-homepage-container .leftside{
+    width: 50%;
+    height: 500px;
+
+    position: relative;
+}
+
+.two-column-homepage-container .leftside .leftside-image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.two-column-homepage-container .leftside .leftside-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    
+    padding-top: 300px;
+    padding-left: 50px;
+    
+
+    color: white;
+    border-radius: 8px;
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text.visible {
+    opacity: 1;
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text h3{
+    font-size: 2.875rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    font-family: "Anton", sans-serif;
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: .09px;
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text a{
+    width: 200px;
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text a button {
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #002b45;
+    padding: 13px 15px 15px;
+    min-width: 140px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 200px;
+
+    font-family: "Oswald", sans-serif;
+
+}
+
+.two-column-homepage-container .leftside .two-column-homepage-leftside-text a button:hover{
+    background-color: #f1f1f1;
+}
+
+.two-column-homepage-container .rightside{
+    width: 50%;
+    height: 500px;
+    
+    position: relative;
+}
+
+.two-column-homepage-container .rightside .rightside-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.two-column-homepage-container .rightside .rightside-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    
+    padding-top: 300px;
+    padding-left: 50px;
+    
+
+    color: white;
+    border-radius: 8px;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text.visible {
+    opacity: 1;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text h3{
+    font-size: 2.875rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    font-family: "Anton", sans-serif;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: .09px;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text a{
+    width: 200px;
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text a button {
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #002b45;
+    padding: 13px 15px 15px;
+    min-width: 140px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 200px;
+
+    font-family: "Oswald", sans-serif;
+
+}
+
+.two-column-homepage-container .rightside .two-column-homepage-rightside-text a button:hover{
+    background-color: #f1f1f1;
+}
+
+
+/* background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); */
+
