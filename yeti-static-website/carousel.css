@@ -98,8 +98,9 @@
     position: relative;
 }
 
-.counter {
+.slides-numbers {
     position: absolute;
+    display: none;
     bottom: 3px;
     width: 3.4375rem;
     text-align: center;
