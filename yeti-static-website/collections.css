@@ -2,6 +2,8 @@
     padding: 0 1.5rem;
 }
 
+
+
 .collection-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -100,12 +102,20 @@
     padding: 0 1.5rem;
 }
 
+.full-image-collection-banner-section.full-width{
+    padding: 0 0rem;
+}
+
 .full-image-collection-banner-container{
     position: relative;
     overflow: hidden;
 
     border-radius: 6px;
 } 
+
+.full-image-collection-banner-container.no-border-radius{
+    border-radius: 0px;
+}
 
 
 .full-image-collection-banner-image{
@@ -199,6 +209,10 @@
     opacity: 1;
 } */
 
+.width30{
+    width: 30%;
+}
+
 .width40{
     width: 40%;
 }
@@ -231,6 +245,16 @@
     font-family: "Anton", sans-serif;
 }
 
+.full-image-collection-banner-text .regular-p-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 1.125rem;
+    line-height: 150%;
+    letter-spacing: .09px;
+    max-width: 550px;
+}
+
 .full-image-collection-banner-text h1{
     font-size:4.5rem;
     line-height: 1.2;
@@ -242,6 +266,7 @@
 
     /* font-family: "Oswald", sans-serif; */
     font-family: "Anton", sans-serif;
+    max-width: 400px;
 }
 
 .full-image-collection-banner-text a{
@@ -260,7 +285,7 @@
     border-radius: 6px;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     width: 160px;
 
     font-family: "Oswald", sans-serif;

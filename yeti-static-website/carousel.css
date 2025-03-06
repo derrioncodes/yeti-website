@@ -226,6 +226,7 @@
     cursor: pointer;
     border-radius: 6px;
     background-color: #f1f1f1;
+    padding-top: 20px;
 
     position: relative;
     
@@ -275,10 +276,10 @@
     font-weight: 900;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
-    margin-top: 20px;
+    
 
     position: absolute;
-    top: 30px;
+    top: 70px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
