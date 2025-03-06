@@ -27,6 +27,10 @@ section{
     margin-bottom: 5rem;
 }
 
+.mb0{
+    margin-bottom: 0;
+}
+
 .banner {
     background-color: #002B45;
     padding: 12px 0px;

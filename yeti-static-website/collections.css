@@ -266,6 +266,10 @@
 
     /* font-family: "Oswald", sans-serif; */
     font-family: "Anton", sans-serif;
+    
+}
+
+.full-image-collection-banner-text h1.mx-width400{
     max-width: 400px;
 }
 
