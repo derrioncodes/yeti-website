@@ -208,4 +208,120 @@
 }
 
 
+/* CAROUSEL V3 */
+
+.carousel-wrapper.v3 {
+    padding-bottom: 60px;
+    /* padding-left: 40px; */
+    transform: translateX(0px);
+}
+
+.carousel-item_v3{
+    width: 100%;
+    margin-right: 24px;
+    width: 100%;
+    display: block;
+    /* transform: translateX(40px); */
+
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+
+    position: relative;
+    
+    
+}
+
+/* .carousel-item_v2:hover{
+    transform: scale(.85);
+} */
+
+
+.carousel-image_v3{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+
+    overflow: hidden;
+    transition: transform .5s ease;
+
+    
+}
+
+.carousel-image_v3:hover{
+    transform: scale(.98);
+}
+
+
+.carousel-image_v3 img{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease;
+    border-radius: 6px;
+    /* transform: scale(.85); */
+}
+
+.carousel-image_v3:hover img{
+    transform: scale(1.1);
+}
+
+.carousel-item_v3 .carousel-text_v3{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    margin-top: 20px;
+
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.slides-numbers.v3 {
+    position: absolute;
+    display: none;
+    bottom: 3px;
+    width: 3.4375rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .08px;
+
+    left: 65px;
+}
+
+.carousel-wrapper.v3 .slick-next, .carousel-wrapper.v3 .slick-prev {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    font-weight: 400;
+    background-size: 10px;
+    color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.carousel-wrapper.v3 .slick-prev {
+    left: 22px;
+    background: url('https://www.yeti.com/on/demandware.static/Sites-Yeti_US-Site/-/en_US/v1740913419852/svg-icons/arrow.svg') no-repeat 50%;
+    padding: 0;
+    
+    
+}
+
+.carousel-wrapper.v3 .slick-next {
+    left: 125px;
+    background: url('https://www.yeti.com/on/demandware.static/Sites-Yeti_US-Site/-/en_US/v1740913419852/svg-icons/arrow.svg') no-repeat 50%;
+    padding: 0;
+    transform: rotate(180deg);
+    
+}
 
