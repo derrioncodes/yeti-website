@@ -12,12 +12,14 @@
     background-position: 100%;
     background-repeat: no-repeat;
 
-    padding: 50px 75px;
+    padding: 55px 75px;
+    align-items: center;
 }
 
 .risk-reversal-header{
     flex: 0 0 33.33333%;
     max-width: 30%;
+    align-items: center;
 }
 
 .risk-reversals-container h2{
@@ -35,11 +37,18 @@
 .risk-reversals{
     display: flex;
     gap: 20px;
-    /* padding-top: 75px; */
+    flex: 0 0 52%;
+    max-width: 58.33333%;
 }
 
 .risk-reversal-item{
     width: 100%;
+}
+
+.risk-reversal-item .icon{
+    margin-bottom: 12px;
+    font-size:24px;
+    display: block;
 }
 
 .risk-reversal-item .risk-reversal-item-title{
@@ -50,6 +59,12 @@
     font-weight: 900;
     color: #fff;
     margin-bottom: 8px;
+}
+
+.risk-reversal-item .risk-reversal-item-title p{
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: .08px;
 }
 
 /* .risk-reversal-item-image{
