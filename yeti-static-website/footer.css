@@ -1,0 +1,148 @@
+footer{
+    display: flex;
+}
+
+.footer_email-signup-container{
+    background-color: rgb(12 64 95);
+    color: #fff;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    flex: 0 0 33.33333%;
+    max-width: 30%;
+}
+
+.footer_email-signup-title{
+    line-height: 1;
+    letter-spacing: 1.6px;
+    font-family: tk-stratum-1-web-n9, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+}
+
+.footer_email-signup-title .email-description{
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: .08px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer_email-signup-container .input-group{
+    align-items: center;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.footer_email-signup-container .input-group .form-control{
+    background: none;
+    border-radius: 0;
+    border: none;
+    padding-left: 0;
+    color: #fff;
+
+    font-size: .875rem;
+    height: 3.125rem;
+
+    padding: 1.125rem .9375rem 1.125rem 0;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+
+    flex: 1 1 auto;
+    width: 1%;
+}
+
+input::placeholder {
+    text-overflow: ellipsis;
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+::-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.footer_email-signup-container .input-group .subscribe-email-btn{
+    width: 1.875rem;
+    height: 1.875rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    align-items: center;
+
+    display: inline-flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    text-decoration: none;
+
+    font-weight: 400;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.footer_email-signup-container .input-group .subscribe-email-btn .join-text{
+    margin-right: 3px;
+}
+
+.email-signup-description{
+    padding-top: 10px;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: .08px;
+    margin-bottom: 1rem;
+}
+
+.footer_social-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 2.5rem;
+}
+
+.footer_social-links .social-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.footer_social-links .social-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer_links{
+    
+    width: 100%;
+
+}
+
+.footer_links-wrapper{
+    padding-top: 3.75rem;
+    padding-left: 3.75rem;
+    padding-bottom: 4.5rem;
+    background-color: rgb(0 43 69);
+    color: #fff;
+}
+
+.footer_copywright{
+    background-color: #002134;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: .07px;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
