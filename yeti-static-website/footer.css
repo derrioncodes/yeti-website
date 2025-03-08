@@ -1,5 +1,7 @@
 footer{
     display: flex;
+    align-items: center;
+    background-color: rgb(12 64 95);
 }
 
 .footer_email-signup-container{
@@ -9,6 +11,7 @@ footer{
     padding-right: 3.75rem;
     flex: 0 0 33.33333%;
     max-width: 30%;
+
 }
 
 .footer_email-signup-title{
@@ -131,6 +134,30 @@ input[type="text" i] {
     padding-bottom: 4.5rem;
     background-color: rgb(0 43 69);
     color: #fff;
+
+    display: flex;
+}
+
+.footer_links-wrapper .footer-item {
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer_links-wrapper .footer-item h3 {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: .7px;
+    font-family: tk-stratum-1-web-n9, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.footer_links-wrapper .footer-item li a{
+    font-size: 12px;
+    line-height: 2.43;
+    cursor: pointer;
 }
 
 .footer_copywright{
@@ -145,4 +172,5 @@ input[type="text" i] {
     width: 100%;
     text-align: center;
 }
+
 
