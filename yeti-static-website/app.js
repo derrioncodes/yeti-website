@@ -1,3 +1,20 @@
+// SUB CONTAINER HOVER
+$(document).ready(function(){
+  $( ".navigation-link" ).hover(function(){
+    $(this).find(".subnav-container").addClass("active");
+  },
+  function () {
+    $(this).find(".subnav-container").removeClass("active"); // Mouse leaves
+  }
+
+);
+})
+
+
+
+
+
+
 $(window).on('scroll', function() {
   $('.full-image-collection-banner-text.show-overlay, .full-image-collection-banner-text.show-overlay_no-bg-gradient').each(function() {
     let elementTop = $(this).offset().top + 300;

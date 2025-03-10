@@ -10,15 +10,19 @@ header {
     /* END ---- TO CREATE FIXED POSITION */
 
     /* START ---- TO CREATE STICKY POSITION */
-        /* position: sticky;
+        position: sticky;
         background-color: #ffffff;
-        top: 0; */
+        top: 0;
     /* END ---- TO CREATE STICKY POSITION */
     
     border-bottom: 1px solid #ddd;
     z-index: 2;
-    position: relative;
+    
     height: 80px;
+}
+
+.header-nav{
+    position: relative;
 }
 
 .brand-logo_img{
@@ -44,13 +48,13 @@ nav .menu {
     height: 100%;
 }
 
-nav .menu li{    
+nav .menu .navigation-link{    
     margin-top: 0;
     width: 150px;
     padding: 0 30px;
 }
 
-nav .menu li a{ 
+nav .menu .navigation-link a{ 
     font-size: 16px;
     text-transform: uppercase;
     height: 100%;
@@ -62,8 +66,8 @@ nav .menu li a{
     font-family: "Oswald", sans-serif; 
 }
 
-nav .menu li a:hover{ 
-    font-weight: bold; 
+nav .menu .navigation-link a:hover{ 
+    font-weight: 500; 
     color: #002B45;     
 }
 
@@ -89,4 +93,61 @@ nav .menu li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.subnav-container{
+    position: absolute;
+    top: 100%;
+    bottom: auto;
+    left: 0;
+    width: 100vw;
+    
+    text-align: center;
+
+    display: none;
+
+    
+}
+
+.subnav-container.active{
+    display: block;
+}
+
+
+
+.subnav-items{
+    display: flex;
+    height: 4.375rem;
+    line-height: 4.375rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    list-style-type: none;
+}
+
+.subnav-items .subnav-items-link{
+    text-align: center;
+    background: #fff;
+    line-height: calc(4.375rem - 1px);
+    padding: 0 16px;
+    font-size: .875rem;
+    letter-spacing: .035rem;
+    color: #436e89;
+    text-transform: uppercase;
+
+}
+
+.subnav-items .subnav-items-link .subnav-items-link_a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.subnav-items .subnav-items-link .subnav-items-link_a:hover{
+    font-weight: 400;
+
 }
