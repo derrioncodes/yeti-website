@@ -1,14 +1,27 @@
 // SUB CONTAINER HOVER
-$(document).ready(function(){
-  $( ".navigation-link" ).hover(function(){
-    $(this).find(".subnav-container").addClass("active");
-  },
-  function () {
-    $(this).find(".subnav-container").removeClass("active"); // Mouse leaves
-  }
+// $(document).ready(function(){
+//   $( ".navigation-link" ).hover(function(){
+//     $(this).find(".subnav-container").addClass("active");
+//   },
+//   function () {
+//     $(this).find(".subnav-container").removeClass("active"); // Mouse leaves
+//   }
 
-);
-})
+// );
+// })
+
+// SUB CONTAINER HOVER - SLIDE
+
+$(document).ready(function () {
+  $(".navigation-link").hover(
+    function () {
+      $(this).find(".subnav-container").stop(true, true).slideDown(300); // Slide down when hovering
+    },
+    function () {
+      $(this).find(".subnav-container").stop(true, true).slideUp(300); // Slide up when mouse leaves
+    }
+  );
+});
 
 
 
