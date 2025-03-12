@@ -23,13 +23,16 @@ $(document).ready(function () {
   );
 });
 
+// MOBILE NAV SUB CONTAINER CLICK - SLIDE
 
+$(document).ready(function () {
+  // Open the first submenu by default
+  $(".mobile-subnav-container").first().addClass("active").show();
 
-$(document).ready(function(){
-  $(".mobile-navigation-link").click(function(e){
+  $(".mobile-navigation-link").click(function (e) {
     e.preventDefault(); // Prevent default link action
 
-    // Close other open submenus
+    // Close other open submenus except the one being clicked
     $(".mobile-subnav-container")
       .not($(this).next(".mobile-subnav-container"))
       .slideUp(200)
@@ -43,8 +46,21 @@ $(document).ready(function(){
   });
 });
 
+// OPEN/CLOSE MOBILE BUTTON
+$(document).ready(function () {
+  // Open mobile nav when clicking the menu button
+  $("#open-mobile-nav").click(function () {
+    $(".mobile-header_container").addClass("active");
+  });
+
+  // Close mobile nav when clicking the close (X) button
+  $("#close-mobile-nav").click(function () {
+    $(".mobile-header_container").removeClass("active");
+  });
+});
 
 
+// 1 column banner section
 
 $(window).on('scroll', function() {
   $('.full-image-collection-banner-text.show-overlay, .full-image-collection-banner-text.show-overlay_no-bg-gradient').each(function() {
