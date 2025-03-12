@@ -214,9 +214,15 @@ nav .menu .navigation-link a:hover{
     color: #002B45; 
 }
 
+.mobile-navigation-link.highlighted {
+    color: #002b45;
+    font-weight: 500;
+}
+
 .mobile-subnav-items{
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
+    background-color: #ddd;
 }
 
 .mobile-subnav-container{
@@ -236,6 +242,8 @@ nav .menu .navigation-link a:hover{
     
     padding: 25px 30px;
     /* border-bottom: 1px solid #ddd; */
+
+
 }
 
 /* .mobile-subnav-container li:last-of-type {
@@ -303,7 +311,7 @@ nav .menu .navigation-link a:hover{
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 720px){
     nav{
         display: none;
     }

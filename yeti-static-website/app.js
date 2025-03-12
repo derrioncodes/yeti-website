@@ -10,7 +10,7 @@
 // );
 // })
 
-// SUB CONTAINER HOVER - SLIDE
+// DESKTOP SUB CONTAINER HOVER - SLIDE
 
 $(document).ready(function () {
   $(".navigation-link").hover(
@@ -23,11 +23,12 @@ $(document).ready(function () {
   );
 });
 
-// MOBILE NAV SUB CONTAINER CLICK - SLIDE
+
 
 $(document).ready(function () {
   // Open the first submenu by default
   $(".mobile-subnav-container").first().addClass("active").show();
+  $(".mobile-navigation-link").first().addClass("highlighted");
 
   $(".mobile-navigation-link").click(function (e) {
     e.preventDefault(); // Prevent default link action
@@ -35,16 +36,27 @@ $(document).ready(function () {
     // Close other open submenus except the one being clicked
     $(".mobile-subnav-container")
       .not($(this).next(".mobile-subnav-container"))
-      .slideUp(200)
+      // .slideUp(200)
       .removeClass("active");
+    // Remove highlight from none active menu links
+    $(".mobile-navigation-link").removeClass("highlighted");
 
     // Toggle the clicked submenu
     $(this).next(".mobile-subnav-container")
       .stop(true, true)
-      .slideToggle(200)
+      // .slideToggle(200)
       .toggleClass("active");
+
+      if ($(this).next(".mobile-subnav-container").hasClass("active")) {
+        $(this).addClass("highlighted");
+      }
   });
 });
+
+
+
+
+
 
 // OPEN/CLOSE MOBILE BUTTON
 $(document).ready(function () {
