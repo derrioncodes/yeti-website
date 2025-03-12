@@ -25,6 +25,24 @@ $(document).ready(function () {
 
 
 
+$(document).ready(function(){
+  $(".mobile-navigation-link").click(function(e){
+    e.preventDefault(); // Prevent default link action
+
+    // Close other open submenus
+    $(".mobile-subnav-container")
+      .not($(this).next(".mobile-subnav-container"))
+      .slideUp(200)
+      .removeClass("active");
+
+    // Toggle the clicked submenu
+    $(this).next(".mobile-subnav-container")
+      .stop(true, true)
+      .slideToggle(200)
+      .toggleClass("active");
+  });
+});
+
 
 
 

@@ -154,6 +154,113 @@ nav .menu .navigation-link a:hover{
 
 /* MOBILE */
 
+.mobile-header_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 0;
+    z-index: 3;
+
+    transform: translateY(-100%); 
+    transition: transform .5s ease-in-out;
+}
+
+
+
+.mobile-header_container.active {
+    transform: translateY(0);
+    transition: transform .5s ease-in-out;
+}
+
+.mobile-header-nav-menu--btn{
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+}
+
+.mobile-header-nav-menu--close-btn{
+    font-size: 25px;
+}
+
+.mobile-header-nav-menu__menu-links{
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-navigation-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #436e89;  
+    font-family: "Oswald", sans-serif; 
+}
+
+.mobile-navigation-link:hover{
+    font-weight: 500; 
+    color: #002B45; 
+}
+
+.mobile-subnav-items{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.mobile-subnav-container{
+    position: absolute;
+    top: 130px;
+    /* bottom: 180px; */
+    left: 0;
+    width: 100vw;
+    overflow-y: auto;
+    
+    text-align: left;
+
+    display: none;
+    
+    /* height: 100%; */
+    background-color: #f1f1f1;
+    
+    padding: 25px 30px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.mobile-subnav-container li:last-of-type {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.mobile-subnav-container.active{
+    display: block;
+}
+
+.mobile-subnav-container .mobile-subnav-items-link_a{
+    text-align: left;
+    font-size: 1.375rem;
+    font-weight: 500;
+    letter-spacing: .055rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+    color: #002b45;
+}
+
+
+
+
 .mobile-nav-menu-btn {
     display: none;
 }
