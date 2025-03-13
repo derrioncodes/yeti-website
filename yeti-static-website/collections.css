@@ -338,6 +338,7 @@
 
 .full-image-collection-banner-text h1.mx-width400{
     max-width: 400px;
+    width: 100%;
 }
 
 .full-image-collection-banner-text a{
@@ -403,6 +404,9 @@
         font-size:3.5rem;
         
     }
+    .width100{
+        width: 100%;
+    }
 
 }
 
@@ -427,6 +431,10 @@
     .full-image-collection-banner-text h1{
         font-size:2rem;
         
+    }
+
+    .width100{
+        width: 100%;
     }
 
 }

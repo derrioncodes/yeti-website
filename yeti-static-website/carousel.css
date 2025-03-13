@@ -346,5 +346,41 @@
     
 }
 
-/* @media (max-width:) */
+@media (max-width:1024px){
+    .carousel-wrapper.v3 {
+        padding-bottom: 60px;
+        /* padding-left: 40px; */
+        transform: translateX(40px);
+    }
+
+    .carousel-item_v3 .carousel-text_v3 {
+        top: 40px;
+    }
+
+    
+
+    .slides-numbers.v3 {
+    
+        left: 65px;
+    }
+    
+    
+    
+    .carousel-wrapper.v3 .slick-prev {
+        left: -18px;
+        
+        
+    }
+    
+    .carousel-wrapper.v3 .slick-next {
+        left: 85px;
+        
+    }
+}
+
+@media (max-width:600px){
+    .carousel-item_v3 .carousel-text_v3 {
+        top: 60px;
+    }
+}
 
