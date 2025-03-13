@@ -367,6 +367,72 @@
     background-color: #f1f1f1;
 }
 
+.full-image-collection-banner-image.hideOnMobile{
+    display: block;
+}
+.full-image-collection-banner-image.showOnMobile{
+    display: none;
+}
+
+@media (max-width:1250px){
+
+    .full-image-collection-banner-text{
+        padding-top: 150px;
+    }
+    .full-image-collection-banner-text h1{
+        font-size:3rem;
+        
+    }
+
+}
+
+@media (max-width:1020px){
+
+    .full-image-collection-banner-image.hideOnMobile{
+        display: none;
+    }
+    .full-image-collection-banner-image.showOnMobile{
+        display: block;
+        height: 700px;
+    }
+
+    .full-image-collection-banner-text.mobileText .width50{
+        width: 60%;
+    }
+    .full-image-collection-banner-text h1{
+        font-size:3.5rem;
+        
+    }
+
+}
+
+@media (max-width:600px){
+
+    .full-image-collection-banner-image.hideOnMobile{
+        display: none;
+    }
+    .full-image-collection-banner-image.showOnMobile{
+        display: block;
+        height: 500px;
+    }
+
+    .full-image-collection-banner-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .full-image-collection-banner-text.mobileText .width50{
+        width: 100%;
+    }
+    .full-image-collection-banner-text h1{
+        font-size:2rem;
+        
+    }
+
+}
+
+
+
     
 
 
