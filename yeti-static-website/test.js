@@ -49,3 +49,16 @@ $(document).ready(function () {
         .toggleClass("active");
     });
   });
+
+
+  // SUB CONTAINER HOVER
+// $(document).ready(function(){
+//   $( ".navigation-link" ).hover(function(){
+//     $(this).find(".subnav-container").addClass("active");
+//   },
+//   function () {
+//     $(this).find(".subnav-container").removeClass("active"); // Mouse leaves
+//   }
+
+// );
+// })
